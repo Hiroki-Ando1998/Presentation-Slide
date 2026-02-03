@@ -24,34 +24,42 @@
 
 <body>
 
-  
   <!-- reveal.js root -->
   <div class="reveal">
     <div class="slides">
 
-
-  
       <!-- Slide 1 -->
-            <section
+      <section
         data-background-image="../1_Images/Picture_1.png"
         data-background-size="contain"
         data-background-position="center"
         data-background-color="white">
       </section>
 
-      
       <!-- Slide 2 -->
-            <section
-        data-background-image="../1_Images/Picture_1.png"
+      <section
+        data-background-image="../1_Images/Picture_2.png"
         data-background-size="contain"
         data-background-position="center"
         data-background-color="white">
       </section>
-
 
     </div>
   </div>
 
+  <!-- reveal.js core JS -->
+  <script src="../dist/reveal.js"></script>
+
+  <!-- Initialize reveal.js -->
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true   // ← これだけで自動表示
+    });
+  </script>
+
+</body>
+</html>
 
 
 
