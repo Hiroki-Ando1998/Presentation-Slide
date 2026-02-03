@@ -25,3 +25,8 @@
 6. Check whether index.html appears in the list of files. When the Source Control panel is open, you should see a section labeled Changes, and under it an entry such as M index.html.
 7. Type a message into the message input box at the top of the Source Control panel.
 8. Click the checkmark (✔) icon next to the message box. 
+
+
+### Creating slides
+1. Put pictures in the folder (2_Images)
+2. Revise the code to put the pictures in the slide, using the [template](https://github.com/Hiroki-Ando1998/Presentation-Slide/blob/main/2_HTML/00_Template_white.html)
