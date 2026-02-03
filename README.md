@@ -28,6 +28,8 @@
 8. Click the checkmark (✔) icon next to the message box. 
 
 
-### Creating slides
+### Creating slides and uploading online
 1. Put pictures in the folder (2_Images)
-2. Revise the code to put the pictures in the slide, using the [template](https://github.com/Hiroki-Ando1998/Presentation-Slide/blob/main/2_HTML/00_Template_white.html)
+2. Revise the code to put the pictures in a slide, using the [template](https://github.com/Hiroki-Ando1998/Presentation-Slide/blob/main/2_HTML/00_Template_white.html)
+3. Uploading the slide:"setting"→"Pages"→"main, /root"→"save", wait for a comple minutes
+4. Enter "https://USER.github.io/REPOSITORY/FolderName/FileName.html"
