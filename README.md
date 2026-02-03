@@ -18,7 +18,7 @@ Once the basic structure of HTML is mastered,
 
 
 ## Setting Up Reveal.js on GitHub
-1. Download reveal.js from GitHub
+1. Download reveal.js from [GitHub](https://github.com/hakimel/reveal.js)
 2. Open a web browser and search for “reveal.js” on GitHub, then access the official repository named hakimel/reveal.js. On the repository page,
 3. Click the green “Code” button and select “Download ZIP” from the menu.
 4. Extract the downloaded ZIP file. On Windows, navigate to your Downloads folder, right-click the ZIP file, and choose “Extract All.” After extraction, a folder such as reveal.js-5.x.x will be created.
