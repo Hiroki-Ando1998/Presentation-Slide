@@ -11,7 +11,7 @@
   <!-- Theme (white) -->
   <link rel="stylesheet" href="../dist/theme/white.css">
 
-  <!-- Force white background (important) -->
+  <!-- Force white background -->
   <style>
     .reveal {
       background-color: #ffffff;
@@ -20,22 +20,23 @@
 </head>
 
 <body>
- <div class="slides">
 
-  <section>
-    <h2>Lab Meeting</h2>
-  </section>
+  <!-- ★ これが必須 -->
+  <div class="reveal">
+    <div class="slides">
 
-  <section
-    data-background-image="../1_Images/Picture_1.png"
-    data-background-size="contain"
-    data-background-color="white">
-  </section>
-  <!-- 
-        .. は「1つ上の階層に戻る」という意味
-        -->
-</div>
-  
+      <section>
+        <h2>Lab Meeting</h2>
+      </section>
+
+      <section
+        data-background-image="../1_Images/Picture_1.png"
+        data-background-size="contain"
+        data-background-color="white">
+      </section>
+
+    </div>
+  </div>
 
   <!-- reveal.js core JS -->
   <script src="../dist/reveal.js"></script>
