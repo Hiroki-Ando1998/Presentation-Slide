@@ -7,7 +7,7 @@
 - Highly responsive even when handling large presentation can be published directly as a web page.
 - Can be hosted on platforms such as GitHub Pages, university servers, or personal websites, making them accessible via a simple URL without the need for file downloads or PDF conversion. it can be viewed smoothly on desktops, tablets, and smartphones.
 - High level of reproducibility across different environments: the appearance and layout remain consistent, regardless of operating system, software version, or installed fonts, as long as the presentation is viewed in a modern web browser.
-- 
+
 Once the basic structure of HTML is mastered,
 - Reveal.js also works extremely well with Git and GitHub, enabling precise version control of slides.
 - Strong support for mathematical expressions, code, and technical figures. Mathematical notation can be rendered using MathJax or KaTeX, providing a workflow that is very close to LaTeX and avoiding resolution loss or formatting inconsistencies.
