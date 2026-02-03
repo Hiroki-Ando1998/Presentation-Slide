@@ -20,6 +20,19 @@
       background-color: #ffffff;
     }
   </style>
+
+<style>
+  .reveal .slide-number {
+    font-size: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+    padding: 6px 12px;
+    border-radius: 8px;
+  }
+</style>
+  
 </head>
 
 <body>
@@ -47,22 +60,6 @@
     </div>
   </div>
 
-  <!-- reveal.js core JS -->
-  <script src="../dist/reveal.js"></script>
-
-  <!-- Initialize reveal.js -->
-  <script>
-    Reveal.initialize({
-      hash: true,
-      slideNumber: true   // ← これだけで自動表示
-    });
-  </script>
-
-</body>
-</html>
-
-
-
 
 
 
@@ -71,15 +68,15 @@
   <script src="../dist/reveal.js"></script>
 
   <script>
-    Reveal.initialize({
-      hash: true,
-      slideNumber: true,
-      width: "100%",
-      height: "100%",
-      margin: 0,
-      minScale: 1,
-      maxScale: 1
-    });
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  width: "100%",
+  height: "100%",
+  margin: 0,
+  minScale: 1,
+  maxScale: 1
+});
   </script>
 
 </body>
