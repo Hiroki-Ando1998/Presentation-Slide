@@ -16,8 +16,6 @@
 <img width="682" height="687" alt="image" src="https://github.com/user-attachments/assets/aff7ad95-9284-4ebe-a860-3b95e4051623" />
 
 
-Finally, save everything to GitHub to keep a full history. In VS Code, open the Source Control panel, stage the changed files, write a commit message such as “Add reveal.js framework,” and commit the changes. Then push them to GitHub. At this point, the entire reveal.js framework is stored in your repository, and all changes are properly tracked in version control.
-
 ### Connecting VScode with GitHub and updating
 1. Open your project folder in VS Code
 2. Press Ctrl + Shift + P to open the Command Palette. In the Command Palette, type “Git: Clone” and select it.
