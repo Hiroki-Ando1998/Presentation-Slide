@@ -10,6 +10,7 @@
 5. Open this folder and check its contents carefully. Inside, you will see directories such as dist, plugin, css, and js, along with files like index.html, package.json, and README.md. These files and folders are what you need for reveal.js to work. It is important not to use the outer reveal.js-5.x.x folder itself as a nested directory in your project.
 6. copy only the contents of the extracted folder into your own repository. Open the reveal.js-5.x.x folder, select all files and directories inside it (for example, dist, plugin, css, js, and so on), and copy them. Paste these items directly into the root of your own repository.
 
+<img width="677" height="495" alt="image" src="https://github.com/user-attachments/assets/5026da90-e3d8-4cbd-87bd-e1c7716900f2" />
 
 
 Once the files are copied, check the folder structure in VS Code. If your repository contains index.html at the top level along with directories such as dist, plugin, css, and js, then the setup is correct.
