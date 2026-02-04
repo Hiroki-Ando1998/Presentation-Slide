@@ -47,3 +47,10 @@ Once the basic structure of HTML is mastered,
 2. Revise the code to put the pictures in a slide, using the [template](https://github.com/Hiroki-Ando1998/Presentation-Slide/blob/main/2_HTML/00_Template_white.html)
 3. Uploading the slide:"setting"→"Pages"→"main, /root"→"save", wait for a comple minutes
 4. Enter "htttps://USER.github.io/REPOSITORY/FolderName/FileName.html.For example: https://hiroki-ando1998.github.io/Presentation-Slide/2_HTML/00_Template_white.html
+
+### Convert ppt, pdf into svg
+- Convet file into PDF file
+- Open the PDF file via [Inkscape](https://inkscape.org/release/inkscape-1.4.2/windows/64-bit/msi/dl/)
+- Save file in svg file
+
+
