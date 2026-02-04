@@ -50,19 +50,20 @@
       display: none;
     }
 
-    /* Slide jump input box */
+    /* Slide jump input box - fixed on top, always visible */
     #slide-jump {
       position: fixed;
       top: 10px;
       left: 50%;
       transform: translateX(-50%);
-      width: 80px;
+      width: 90px;
       padding: 5px 8px;
-      font-size: 18px;
-      z-index: 1000;
+      font-size: 16px;
+      z-index: 9999;
       border-radius: 6px;
       border: 1px solid #ccc;
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255, 255, 255, 0.95);
+      text-align: center;
     }
   </style>
 </head>
@@ -121,21 +122,19 @@
     // --- スライドジャンプ機能 ---
     Reveal.on('ready', function() {
       const slideInput = document.getElementById('slide-jump');
+      
+      // Enterキーでジャンプ
       slideInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
           const num = parseInt(slideInput.value);
           if (!isNaN(num)) {
-            Reveal.slide(num - 1); // スライド番号は0スタート
+            Reveal.slide(num - 1); // 0スタート
             slideInput.value = '';
           }
         }
       });
     });
   </script>
-
-</body>
-</html>
-
 
 </body>
 </html>
