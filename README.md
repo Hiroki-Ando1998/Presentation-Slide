@@ -24,7 +24,7 @@ Once the basic structure of HTML is mastered,
 4. Extract the downloaded ZIP file. On Windows, navigate to your Downloads folder, right-click the ZIP file, and choose “Extract All.” After extraction, a folder such as reveal.js-5.x.x will be created.
 5. Open this folder and check its contents carefully. Inside, you will see directories such as dist, plugin, css, and js, along with files like index.html, package.json. (These files and folders are what you need for reveal.js to work.) 
 6. Copy only the contents of the extracted folder into your own repository.
-7. Check your repository contains index.html at the top level along with directories such as dist, plugin, css, and js, then the setup is correct.
+7. Check your repository contains **index.html** at the top level along with directories such as dist, plugin, css, and js, then the setup is correct.
 8. Create a folder for storing images (eg,1_Images)
 9. Create a folder for storing HTML codes (eg, 2_HTML)
 
