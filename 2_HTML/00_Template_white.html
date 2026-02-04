@@ -62,14 +62,14 @@
       z-index: 1000;
       border-radius: 6px;
       border: 1px solid #ccc;
+      background-color: rgba(255, 255, 255, 0.9);
     }
   </style>
-
 </head>
 <body>
 
   <!-- Slide jump input -->
-  <input type="number" id="slide-jump" placeholder="Go to slide #" min="1">
+  <input type="text" id="slide-jump" placeholder="Go to slide #" />
 
   <!-- Slides -->
   <div class="reveal">
@@ -106,6 +106,7 @@
   <script src="../dist/reveal.js"></script>
 
   <script>
+    // --- Reveal.js 初期化 ---
     Reveal.initialize({
       hash: true,
       slideNumber: 'c/t', // Page number
@@ -117,18 +118,24 @@
       maxScale: 1
     });
 
-    // --- Slide jump functionality ---
-    const slideInput = document.getElementById('slide-jump');
-    slideInput.addEventListener('keydown', function(event) {
-      if (event.key === 'Enter') {
-        const num = parseInt(slideInput.value);
-        if (!isNaN(num)) {
-          Reveal.slide(num - 1); // 0-indexed
-          slideInput.value = '';
+    // --- スライドジャンプ機能 ---
+    Reveal.on('ready', function() {
+      const slideInput = document.getElementById('slide-jump');
+      slideInput.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+          const num = parseInt(slideInput.value);
+          if (!isNaN(num)) {
+            Reveal.slide(num - 1); // スライド番号は0スタート
+            slideInput.value = '';
+          }
         }
-      }
+      });
     });
   </script>
+
+</body>
+</html>
+
 
 </body>
 </html>
