@@ -20,44 +20,58 @@
       background-color: #ffffff;
     }
   </style>
-<!-- Page number style------------------------------------------- Page number style -->
-<style>
-  .reveal .slide-number {
-    font-size: 35px;
-    right: 20px;
-    bottom: 20px;
-    background: rgba(255, 255, 255, 0.85);
-    color: #000;
-    padding: 6px 12px;
-    border-radius: 8px;
-  }
-</style>
 
-<!-- Page slide control botton style--------------------------- Page slide control botton style -->
-<style>
-  /* Controls position & size */
-  .reveal .controls {
-    right: 20px;
-    left: auto;
-    top: 50%;
-    bottom: auto;
-    transform: translateY(-50%) scale(1.4);
-  }
+  <!-- Page number style -->
+  <style>
+    .reveal .slide-number {
+      font-size: 35px;
+      right: 20px;
+      bottom: 20px;
+      background: rgba(255, 255, 255, 0.85);
+      color: #000;
+      padding: 6px 12px;
+      border-radius: 8px;
+    }
+  </style>
 
-  /* Hide vertical navigation */
-  .reveal .controls .navigate-up,
-  .reveal .controls .navigate-down {
-    display: none;
-  }
-</style>
+  <!-- Controls style -->
+  <style>
+    .reveal .controls {
+      right: 20px;
+      left: auto;
+      top: 50%;
+      bottom: auto;
+      transform: translateY(-50%) scale(1.4);
+    }
 
+    /* Hide vertical navigation */
+    .reveal .controls .navigate-up,
+    .reveal .controls .navigate-down {
+      display: none;
+    }
 
+    /* Slide jump input box */
+    #slide-jump {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      padding: 5px 8px;
+      font-size: 18px;
+      z-index: 1000;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+  </style>
 
-  
 </head>
 <body>
 
-  <!-- Add slides----------------------------------------------------------------------------------------------------------------- Add slides -->
+  <!-- Slide jump input -->
+  <input type="number" id="slide-jump" placeholder="Go to slide #" min="1">
+
+  <!-- Slides -->
   <div class="reveal">
     <div class="slides">
 
@@ -67,7 +81,6 @@
         data-background-size="contain"
         data-background-position="center"
         data-background-color="white">
-        <!-- ../このtemplate.htmlより一つ上のファイルということ -->
       </section>
 
       <!-- Slide 2 -->
@@ -86,11 +99,6 @@
         data-background-color="white">
       </section>
 
-
-
-
-    <!-- Add slides----------------------------------------------------------------------------------------------------------------- Add slides -->
-      
     </div>
   </div>
   
@@ -98,16 +106,28 @@
   <script src="../dist/reveal.js"></script>
 
   <script>
-Reveal.initialize({
-  hash: true,
-  slideNumber: 'c/t', <!--Page number
-  controls: true,   
-  width: "100%",
-  height: "100%",
-  margin: 0,
-  minScale: 1,
-  maxScale: 1
-});
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t', // Page number
+      controls: true,   
+      width: "100%",
+      height: "100%",
+      margin: 0,
+      minScale: 1,
+      maxScale: 1
+    });
+
+    // --- Slide jump functionality ---
+    const slideInput = document.getElementById('slide-jump');
+    slideInput.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        const num = parseInt(slideInput.value);
+        if (!isNaN(num)) {
+          Reveal.slide(num - 1); // 0-indexed
+          slideInput.value = '';
+        }
+      }
+    });
   </script>
 
 </body>
