@@ -70,22 +70,23 @@
 
   <!-- Video style------------------------------------------- Video style -->
 <style>
+.reveal section {
+  position: relative;
+}
+
 .right-video {
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: 3%;
   transform: translateY(-50%);
 
-  width: 35%;        /* スライド幅に対する割合 */
-  aspect-ratio: 16 / 9;  /* ★これが重要 */
+  width: 40vw;        /* ← ここが効く */
+  max-width: 720px;   /* 上限 */
+  height: auto;       /* 縦横比保持 */
 
-  height: auto;      /* 念のため */
-  max-width: 720px;  /* 任意 */
-
-  box-shadow: 0 0 12px rgba(0,0,0,0.4);
   z-index: 9999;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
 }
-
 
 </style>
 
@@ -175,19 +176,12 @@
 
 </section>
 
-      <!-- Slide 7 -->
-<section style="position: relative; width: 100%; height: 100%; background-color: white;">
-<img
-  src="../1_Images/20260202_PhD_project/1_LeftCensored_data/20260202_Left_censored_conclusion_1.svg"
-  style="
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    z-index:1;
-  ">
-
+<!-- Slide 8 -->
+<section
+  data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/20260202_Left_censored_conclusion_1.svg"
+  data-background-size="contain"
+  data-background-position="center"
+  data-background-color="white">
 
   <video
     src="../1_Images/20260202_PhD_project/1_LeftCensored_data/wastewater_animation.mp4"
@@ -197,8 +191,7 @@
     playsinline
     data-autoplay>
   </video>
-
-  <div style="opacity: 0;">spacer</div>
+<div style="opacity: 0;">spacer</div>
 </section>
 
 <!-- Slide 8 -->
