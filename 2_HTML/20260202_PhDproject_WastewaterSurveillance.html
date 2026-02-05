@@ -70,17 +70,22 @@
 
   <!-- Video style------------------------------------------- Video style -->
 <style>
-  .right-video {
+.right-video {
   position: absolute;
   top: 50%;
   right: 5%;
   transform: translateY(-50%);
-  width: 40vw;      /* ← px や % ではなく vw */
-  max-width: 640px; /* 任意 */
-  height: auto;
+
+  width: 35%;        /* スライド幅に対する割合 */
+  aspect-ratio: 16 / 9;  /* ★これが重要 */
+
+  height: auto;      /* 念のため */
+  max-width: 720px;  /* 任意 */
+
   box-shadow: 0 0 12px rgba(0,0,0,0.4);
   z-index: 9999;
 }
+
 
 </style>
 
