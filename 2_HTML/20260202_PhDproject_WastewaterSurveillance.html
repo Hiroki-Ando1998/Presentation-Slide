@@ -66,9 +66,23 @@
   background-color: rgba(255, 255, 255, 0.95);
   text-align: center;
 }
-
-
   </style>
+
+  <!-- Video style------------------------------------------- Video style -->
+<style>
+  .right-video {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+
+    width: 30%;        /* 右1/3 */
+    max-width: 480px;  /* 任意：大きくなりすぎ防止 */
+
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  }
+</style>
+  
 </head>
 <body>
 
@@ -129,6 +143,16 @@
         data-background-size="contain"
         data-background-position="center"
         data-background-color="white">
+
+        <video
+    src="videos/demo.mp4"
+    class="right-video"
+    muted
+    controls
+    data-autoplay
+    playsinline>
+  </video>
+ 
       </section>
 
 
