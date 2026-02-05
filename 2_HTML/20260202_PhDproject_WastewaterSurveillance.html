@@ -81,10 +81,24 @@
     z-index: 9999; 
 }
 </style>
+
+<style>
+  .slide-bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+    pointer-events: none; /* クリックを邪魔しない */
+  }
+</style>
+
   
 </head>
 <body>
 
+  
   <!-- Slide jump input -->
   <input type="text" id="slide-jump" placeholder="Go to slide #" />
 
@@ -172,6 +186,25 @@
 
   <div style="opacity: 0;">spacer</div>
 </section>
+
+<!-- Slide 8 -->
+<section>
+
+  <img
+    src="../1_Images/20260202_PhD_project/1_LeftCensored_data/20260202_Left_censored_conclusion_1.svg"
+    class="slide-bg-img">
+
+  <video
+    src="../1_Images/20260202_PhD_project/1_LeftCensored_data/wastewater_animation.mp4"
+    class="right-video"
+    muted
+    controls
+    playsinline>
+  </video>
+
+</section>
+
+
 
       
       <!-- Add slides----------------------------------------------------------------------------------------------------------------- Add slides -->
