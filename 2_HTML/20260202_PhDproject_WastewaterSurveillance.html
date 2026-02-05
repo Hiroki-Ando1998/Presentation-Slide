@@ -70,17 +70,16 @@
 
   <!-- Video style------------------------------------------- Video style -->
 <style>
-  .right-video {
+.right-video {
     position: absolute;
     top: 50%;
     right: 5%;
     transform: translateY(-50%);
-
-    width: 30%;        /* 右1/3 */
-    max-width: 480px;  /* 任意：大きくなりすぎ防止 */
-
+    width: 30%;
+    max-width: 480px;
     box-shadow: 0 0 12px rgba(0,0,0,0.4);
-  }
+    z-index: 999; 
+}
 </style>
   
 </head>
@@ -143,14 +142,14 @@
         data-background-size="contain"
         data-background-position="center"
         data-background-color="white">
-
-          <video
-    src="../1_Images/20260202_PhD_project/1_LeftCensored_data/wastewater_animation.mp4"
-    class="right-video"
-    muted
-    controls
-    playsinline>
-  </video>
+        
+        <video
+          src="../1_Images/20260202_PhD_project/1_LeftCensored_data/wastewater_animation.mp4"
+          class="right-video"
+          muted
+          controls
+          playsinline
+          data-autoplay> </video>
 
  
       </section>
