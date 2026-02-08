@@ -1,7 +1,6 @@
-#------URL
-https://github.com/Hiroki-Ando1998/Wastewaterscan/tree/main/04_GIS/20250806
+#----UR:L (https://github.com/Hiroki-Ando1998/Wastewaterscan/tree/main/04_GIS/20250806)
 
-#-------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------
 
 setwd("C:/xx_wwscan202406_concentration_GIS/Spatial_WWcon")
 
