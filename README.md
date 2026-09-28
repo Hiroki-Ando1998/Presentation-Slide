@@ -1,6 +1,6 @@
 ## Slides
 - [Ph.D. Project_Wastewater Surveillance](https://hiroki-ando1998.github.io/Presentation-Slide/2_HTML/20260202_PhDproject_WastewaterSurveillance.html)
-- [Ph.D. Project_Wastewater Surveillance](https://hiroki-ando1998.github.io/Presentation-Slide/2_HTML/202610_Committe_Meeting.html)
+- [Comprehensive Examp_Committe Meeting](https://hiroki-ando1998.github.io/Presentation-Slide/2_HTML/202610_Committe_Meeting.html)
 
 
 ## Advantages of using Reveal.js
