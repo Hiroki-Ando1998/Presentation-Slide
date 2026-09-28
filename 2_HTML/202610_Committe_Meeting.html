@@ -1,0 +1,1176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ph.D project-Wastewater Surveillance</title>
+
+  <!-- reveal.js core CSS -->
+  <link rel="stylesheet" href="../dist/reset.css">
+  <link rel="stylesheet" href="../dist/reveal.css">
+
+  <!-- White theme -->
+  <link rel="stylesheet" href="../dist/theme/white.css">
+
+  <!-- Force pure white background -->
+  <style>
+    html, body {
+      background-color: #ffffff;
+    }
+    .reveal {
+      background-color: #ffffff;
+    }
+  </style>
+
+  <!-- Page number style------------------------------------------- Page number style -->
+  <style>
+    .reveal .slide-number {
+      font-size: 44px;
+      right: 20px;
+      bottom: 20px;
+      background: rgba(255, 255, 255, 0.85);
+      color: #000;
+      padding: 6px 12px;
+      border-radius: 8px;
+    }
+  </style>
+
+  
+  <!-- Slide Controls botton style------------------------------------------- Slide Controls botton style -->
+  <style>
+    .reveal .controls {
+      right: 60px;
+      left: auto;
+      top: 50%;
+      bottom: auto;
+      transform: translateY(-50%) scale(1.4);
+    }
+
+    /* Hide vertical navigation */
+    .reveal .controls .navigate-up,
+    .reveal .controls .navigate-down {
+      display: none;
+    }
+
+    /* Slide jump input box - fixed on top, always visible */
+    #slide-jump {
+  position: fixed;       /* スライドに埋もれない */
+  right: 225px;           /* 右端に寄せる */
+  bottom: 10px;         /* 矢印の下に配置（矢印は530px, or 50%が中心位置なので調整） */
+  width: 140px;          /* 幅を大きく */
+  height: 60px;          /* 高さを大きく */
+  font-size: 28px;       /* 文字も大きく */
+  padding: 6px 10px;
+  z-index: 9999;         /* 常に上に表示 */
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+}
+  </style>
+
+  <!-- Video style------------------------------------------- Video style -->
+<style>
+.reveal section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.right-video {
+  position: absolute;
+  top: 73%;
+  right: 8.5%;
+  transform: translateY(-50%);
+  width: 30vw;        
+  max-width: 720px;  
+  height: auto;       /* 縦横比保持 */
+
+  z-index: 9999;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+</style>
+<!-- Video style------------------------------------------- Video style -->
+
+
+
+  
+</head>
+<body>
+
+  
+  <!-- Slide jump input -->
+  <input type="text" id="slide-jump" placeholder="Go to slide #" />
+
+
+  <!-- Add slides----------------------------------------------------------------------------------------------------------------- Add slides -->
+  <!-- Slides -->
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Slide Title -->
+      <section
+        data-background-image="../1_Images/0_Title_20260202.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      
+      <!-- Slide 2 -->
+      <section
+        data-background-image="../1_Images/1_a_Introduction_WastewaterSurveillance_1.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 3 -->
+      <section
+        data-background-image="../1_Images/1_a_Introduction_WastewaterSurveillance_2.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 4 -->
+      <section
+        data-background-image="../1_Images/1_a_Introduction_WastewaterSurveillance_3.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 5 -->
+      <section
+        data-background-image="../1_Images/1_a_Introduction_WastewaterSurveillance_4.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+<!-- Left Censored data----------------------------------------------------------------------------------------------------------------- Left Censored data -->
+      <!-- Slide 1 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/0_Title_1.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+      
+      
+      <!-- Slide 2 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/1_introduction_1.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 3 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/1_introduction_2.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 4 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/1_introduction_3.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 5 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/2_MM_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 6 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/2_MM_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+      
+      <!-- Slide 7 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/2_MM_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>      
+      
+      <!-- Slide 8 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/2_MM_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>      
+      
+        <!-- Slide 9 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+        <!-- Slide 10 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>     
+
+        <!-- Slide 11 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>     
+
+      <!-- Slide 12 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+      <!-- Slide 13 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+      <!-- Slide 14 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/2_MM_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+      <!-- Slide 15 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+      <!-- Slide 16 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+      <!-- Slide 17 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_08.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+      <!-- Slide 18 -->
+    <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_09.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>  
+
+      
+        <!-- Slide 19 -->
+      <section
+  style="height:100%;"
+  data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/3_RD_10.svg"
+  data-background-size="contain"
+  data-background-position="center"
+  data-background-color="white">
+  <video
+    src="../1_Images/20260202_PhD_project/1_LeftCensored_data/wastewater_animation.mp4"
+    class="right-video"
+    muted
+    controls
+    playsinline
+    data-autoplay>
+  </video>
+</section>
+
+      <!-- Slide 20 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/4_CN_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      <!-- Slide 21 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/5_SI_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      <!-- Slide 22 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/5_SI_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      <!-- Slide 23 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/5_SI_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      <!-- Slide 24 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/5_SI_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      <!-- Slide 25 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/5_SI_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      <!-- Slide 26 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/5_SI_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      <!-- Slide 27 -->
+      <section
+        data-background-image="../1_Images/20260202_PhD_project/1_LeftCensored_data/01_202607_comprehensiveexam/5_SI_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+      
+      
+
+<!-- Shedding load variability-----------------------------------------------------------------------------------------------------------------Shedding load variability -->   
+  <!-- Slide 1 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/0_title_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+      
+      
+      
+      <!-- Slide 2 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/1_introduction_1.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+            <!-- Slide 3 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/1_introduction_2.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 4 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/1_introduction_3.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 5 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/1_introduction_4.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 6 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/2_MM_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 7 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/2_MM_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 8 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 9 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 10 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 11 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/2_MM_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 12 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/2_MM_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 13 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 14 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+       <!-- Slide 15 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+
+        <!-- Slide 16 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/2_MM_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 17 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+       <!-- Slide 18 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/3_RD_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+        <!-- Slide 19 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/4_CN_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>    
+
+        <!-- Slide 20 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/5_SI_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>    
+
+        <!-- Slide 21 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/5_SI_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>    
+
+        <!-- Slide 22 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/5_SI_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>    
+
+        <!-- Slide 23 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/5_SI_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>    
+
+        <!-- Slide 24 -->
+      <section
+        data-background-image="../1_Images/20260415_PhD_project/2_Shedding_load_variability/5_SI_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>    
+
+
+
+
+
+
+      
+<!-- Wastewater-based estimation of regional risk assessment------------------------------------------------------------Wastewater-based estimation of regional risk assessmen -->   
+      <!-- Slide 1 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/0_Title_1.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+      
+         <!-- Slide 2 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/1_introduction_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+         <!-- Slide 3 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/1_introduction_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+         <!-- Slide 4 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/1_introduction_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+         <!-- Slide 5 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/1_introduction_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+         <!-- Slide 6 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/1_introduction_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+         <!-- Slide 7 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 8 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 9 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 10 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 11 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+         <!-- Slide 12 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 13 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 14 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 15 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 16 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/2_MM_08.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 17 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 18 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 19 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 20 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 21 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 22 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_08.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 23 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_09.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 24 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/3_RD_10.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>         
+
+         <!-- Slide 25 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/4_CN_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+
+         <!-- Slide 26 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+         <!-- Slide 27 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+           <!-- Slide 28 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+          <!-- Slide 29 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+          <!-- Slide 30 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+            <!-- Slide 31 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+             <!-- Slide 32 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+          <!-- Slide 33 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_08.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+           <!-- Slide 34 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_09.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+           <!-- Slide 35 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_10.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+            <!-- Slide 36 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_11.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+             <!-- Slide 37 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_12.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+          <!-- Slide 38 -->
+      <section
+        data-background-image="../1_Images/20260515_PhD_project/3_Wastewater_based_risk_estimation/202605_comprehensiveexam/5_SI_13.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>   
+      
+                                                
+
+
+
+
+
+
+
+
+
+      
+<!-- Nosocomial infection risk assessment-----------------------------------------------------------------------------------------------Nosocomial infection risk assessment -->      
+            <!-- Slide 1 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/0_Title_1.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+      
+      
+      
+      <!-- Slide 2 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/1_introduction_1.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+            <!-- Slide 3 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/1_introduction_2.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 4 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/1_introduction_3.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 5 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/2_MM_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 6 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/2_MM_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 7 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/2_MM_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 8 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/2_MM_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 9 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/2_MM_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 10 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/2_MM_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 11 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/2_MM_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 12 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/3_RD_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 13 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/3_RD_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 14 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/3_RD_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 15 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/3_RD_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 16 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/3_RD_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 17 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/3_RD_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 18 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/4_CN_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 19 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_01.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 20 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_02.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 21 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_03.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 22 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_04.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 23 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_05.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 24 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_06.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 25 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_07.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 26 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_08.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+
+      <!-- Slide 27 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_09.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+      <!-- Slide 28 -->
+      <section
+        data-background-image="../1_Images/20260709_PhD_project/4_Nosocomial_infection_risk_assessment/5_SI_10.svg"
+        data-background-size="contain"
+        data-background-position="center"
+        data-background-color="white">
+      </section>
+
+
+
+
+
+
+
+      
+      <!-- ↑↑↑↑↑↑Add slides----------------------------------------------------------------------------------------------------------------- Add slides↑↑↑↑↑↑↑↑ -->
+    </div>
+  </div>
+
+
+
+
+
+
+  
+  <!-- reveal.js core JS -->
+  <script src="../dist/reveal.js"></script>
+
+  <script>
+    // --- Reveal.js 初期化 ---
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t', // Page number
+      controls: true,   
+      width: "100%",
+      height: "100%",
+      margin: 0,
+      minScale: 1,
+      maxScale: 1
+    });
+
+    // --- スライドジャンプ機能 ---
+    Reveal.on('ready', function() {
+      const slideInput = document.getElementById('slide-jump');
+      
+      // Enterキーでジャンプ
+      slideInput.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+          const num = parseInt(slideInput.value);
+          if (!isNaN(num)) {
+            Reveal.slide(num - 1); // 0スタート
+            slideInput.value = '';
+          }
+        }
+      });
+    });
+  </script>
