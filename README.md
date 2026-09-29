@@ -2,6 +2,9 @@
 - [Ph.D. Project_Wastewater Surveillance](https://hiroki-ando1998.github.io/Presentation-Slide/2_HTML/20260202_PhDproject_WastewaterSurveillance.html)
 - [Comprehensive Examp_Committe Meeting](https://hiroki-ando1998.github.io/Presentation-Slide/2_HTML/202610_Committe_Meeting.html)
 
+### Pdf print
+1. Add the word "?print-pdf" to the last of the URL
+2. Control + P
 
 ## Advantages of using Reveal.js
 - Highly responsive even when handling large presentation can be published directly as a web page.
